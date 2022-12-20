@@ -56,7 +56,8 @@
                 }
                 .ma-1s img{
                     width: 100%;
-		    border-radius: 20px;
+                    border-radius: 20px;
+                    height: 400px;
                 }
                 .ma-s2{
                     margin: 30px 0;
@@ -64,12 +65,90 @@
                 .ma-s2 p{
                     font-family: 'poppins';
     font-size: 18px;
-    font-style: italic;
     font-weight: 300;
     color: #696868;
                 }
-                .main-2s{
+                body{
                     background: #c4ebf045;
+                }
+                .bd-hr{
+                    border-top: 1px solid #000;
+                }
+                .fp-1{
+                    font-family: 'Poppins';
+    font-size: 18px;
+                }
+                .ma-s2 .row{
+                    display: flex;
+                    align-items: center;
+                    vertical-align: middle;
+                }
+                @media only screen and (min-width:320px) and (max-width:479px){
+                    .ma-2s img {
+                        width: 15%;
+                        margin-top: 10px;
+                    }
+                    .ma-2s h2{
+                        width: 100%;
+                        font-size: 30px;
+                    }
+                    .ma-2s{
+                        height: 300px;
+    margin-top: 0;
+    background-size: cover;
+                    }
+                    .ma-s2 .row {
+                    display: flex;
+                    flex-direction: column;
+                    }
+                    .ma-1s img{
+                        height: auto;
+    
+                    }
+                    .ma-s2 p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+                    }
+                    .fp-1{
+                        font-size: 13px;
+                    }
+                }
+                @media only screen and (min-width:480px) and (max-width:767px){
+                    .ma-2s h2{
+                        width: 100%;
+                    }
+                    .ma-2s{
+                        background-size: cover;
+                        height: 500px;
+                    }
+                    .ma-2s h2{
+                        width: 100%;
+                    }
+                    .ma-s2 .row {
+    display: flex;
+    flex-direction: column;
+                    }
+                    .ma-1s img{
+                        height: 300px;
+                    }
+                    .ma-s2 p{
+                        margin-top: 10px;
+                    }
+                    
+                }
+                @media only screen and (min-width:768px) and (max-width:991px){
+                    .ma-s2 .row {
+                    display: flex;
+                    flex-direction: column;
+                    }
+                    .ma-1s img{
+                        height: 500px;
+                    }
+                    .ma-s2 p{
+                        margin-top: 10px;
+                        text-align: center;
+                    }
                 }
 			</style>
 	</head>
@@ -94,7 +173,8 @@
                     <img src="images/s1.jpg">
                 </div>
                 <div class="col-md-6">
-                    <p>The food which we consume has a large impact on our environment. The impact varies significantly amoung different diets. According to the United Nation, the world's population will grow to 9.8 billion people by 2050. This corresponds to an increase of almost 30% from the current population of  7 billion. Demographic conditions and population growth imply an increasing demand for animal products, particularly meat, dairy products and crops, which suppliers need to fulfil. It is expected that by 2050, milk and meat production will increase by 58 and 73 percent, respectively.  </p>
+                   <p>The food which we consume has a large impact on our environment. The impact varies significantly amoung different diets. According to the United Nation, the world's population will grow to 9.8 billion people by 2050. This corresponds to an increase of almost 30% from the current population of  7 billion. Demographic conditions and population growth imply an increasing demand for animal products, particularly meat, dairy products and crops, which suppliers need to fulfil. It is expected that by 2050, milk and meat production will increase by 58 and 73 percent, respectively.  </p>
+                    
                 </div>
             </div>
         </div>
@@ -115,14 +195,15 @@
                     <img src="images/s3.jpg">
                 </div>
                 <div class="col-md-6">
-                    <p>A sustainable diet is one with production that has little environmental impact, is protective and repectful of biodiversity and of ecosystems and is nutritionally adequate, safe, healthy, culturally acceptable and economically acceptable. Shifting away from animal based foods can add 49% more to global food supply without increasing croplands. On top of that, plant based diet reduce carbon emissions by a considerable amount and reduce waste.  </p>
+                    <p>The food which we consume has a large impact on our environment. The impact varies significantly amoung different diets. According to the United Nation, the world's population will grow to 9.8 billion people by 2050. This corresponds to an increase of almost 30% from the current population of  7 billion. Demographic conditions and population growth imply an increasing demand for animal products, particularly meat, dairy products and crops, which suppliers need to fulfil. It is expected that by 2050, milk and meat production will increase by 58 and 73 percent, respectively.  </p>
                 </div>
             </div>
         </div>
         <div class="col-md-12 ma-s2">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Eating plant based meat means eating food primarily made from or sourced from plants. This applies to your everyday fruits and vegetables and includes seeds, nuts, olis, legumes and grains. Although there are many overlaps, a plant based diet is not the same as a vegan or vegetarian diet. A plant based diet excludes all meat and animal products (meat, poultry, fish, seafood, dairy and eggs), whereas a vegetarian diet excludes meat, poultry, fish and seafood). </p>
+                    <p>Concern about animal welfare has been an issue for centuries but climate changes and green house emissions (GHGEs) have recently started to become a point of concern. Modern food systems, especially the agricultural sector, have a highly unsustainable impact on the environment.
+                        Using natural resources (land, water and fossil energy) to raise livestock and produce crops increases environmental degradation day by day. Agriculture alone is responsible for fully 10-12 percent of global GHGEs. It is expected that GHGEs will rise by upto 150% of current emission levels by 2030. For this reason, finding ways to mitigate the negative impact of climate change and the environmental footprint of the current food system is becoming more and more urgent. </p>
                 </div>
                 <div class="col-md-6">
                     <img src="images/s4.jpg">
@@ -135,12 +216,17 @@
                     <img src="images/s5.jpg">
                 </div>
                 <div class="col-md-6">
-                    <p>Vegan goes beyond diet; it also excludes any product from animal origin, such as leather. When following a plant based diet, you proportionally choose more of your foods from plant sources.You will get all the necessary vitamins and nutrients in ideal doses; infact a plant based diet is often higher in fibres and phytonutrients as well.</p>
+                    <p>The food which we consume has a large impact on our environment. The impact varies significantly amoung different diets. According to the United Nation, the world's population will grow to 9.8 billion people by 2050. This corresponds to an increase of almost 30% from the current population of  7 billion. Demographic conditions and population growth imply an increasing demand for animal products, particularly meat, dairy products and crops, which suppliers need to fulfil. It is expected that by 2050, milk and meat production will increase by 58 and 73 percent, respectively.  </p>
                 </div>
             </div>
         </div>
     </div>
     </div>
+    <hr class="bd-hr">
+    <div class="text-center"> 
+        <p class="fp-1">Copyright eop.co.in @2022. All Rights Reserved</p>
+    </div>
 </section>
+
 	</body>
 </html>
